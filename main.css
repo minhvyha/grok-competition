@@ -90,19 +90,29 @@ a{
 }
 .footer {
   background-color: hsla(360, 38%, 83%, 1);
-  display: grid;
-  grid-template-columns: repeat(3, 300px);
-  height: 500px;
-  gap: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
+  width: 100%;
+  padding: 3rem 0 1.5rem;
 }
-.footer-logo{
-  opacity: 0;
-}
+
 
 .footer-section h4{
   font-size: 1.2rem;
   margin: 1rem;
+}
+.footer .footer-section{
+  width: 250px;
+  margin: 20px;
+  display: inline-block;
+}
+
+
+.footer-logo{
+  margin: 0;
+  height: 0;
+  opacity: 0;
+  display: none;
+}
+
+.site-links{
+  margin-top: 6rem;
 }
