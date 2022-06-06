@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
-
-
-:root {
+/*:root 
   --first-hue: 207;
   --sat: 100%;
   --lig: 70%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%);
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
@@ -26,8 +23,10 @@
   --tiny-font-size: .625rem;
 
   --font-medium: 500;
-  --font-semibold: 600;
-}
+  --font-semibold: 600; */
+
+
+
 img {
   width: 250px;
   border-radius: 1rem;
@@ -35,43 +34,75 @@ img {
 
 .new{
   background-color: white;
-  border-radius: 1.5rem;
-  box-shadow: 0 2px 16px hsla(var(--second-hue), 98%, 8%, .2);
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px hsla(219, 98%, 8%, .2);
   width: 300px;
   padding: 2rem 1rem;
   margin: 0;
   
   
 }
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+  font-family: 'Poppins', sans-serif;
+  font-size: .808rem;
 }
 
 .new-releases{
-  margin-top: 2rem;
-  column-count: 3;
-  column-gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  column-gap: 2.2rem;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5.5rem 0 1rem;
 }
 .new-releases h3{
-  font-size: var(--biggest-font-size);
+  font-size: 1.75rem;
   grid-template-columns: none;
   position: absolute;
-  left: 50%;
-  top: 10rem;
+  top: 16rem;
   transform: translateX(-50%);
   left: calc(50%);
 }
 a{
   text-decoration: none;
 }
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+
 
 .header, .main, .footer{
   padding: 4.5rem 0 1rem;
   text-align: center;
+}
+.first h4, .second h4, .third h4{
+  margin: 1rem;
+}
+.first p, .second p, .third p{
+  margin: 1rem;
+}
+.new-releases a{
+  position: relative;
+  text-align: left;
+}
+.footer {
+  background-color: hsla(360, 38%, 83%, 1);
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  height: 500px;
+  gap: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.footer-logo{
+  opacity: 0;
+}
+
+.footer-section h4{
+  font-size: 1.2rem;
+  margin: 1rem;
 }
