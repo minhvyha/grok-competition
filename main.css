@@ -53,21 +53,15 @@ body {
 }
 
 .new-releases{
-  display: grid;
-  grid-template-columns: repeat(3, 300px);
-  column-gap: 2.2rem;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5.5rem 0 1rem;
+  width: 100%;
+}
+
+.new {
+  display: inline-block;
+  margin: 1rem;
 }
 .new-releases h3{
-  font-size: 1.75rem;
-  grid-template-columns: none;
-  position: absolute;
-  top: 16rem;
-  transform: translateX(-50%);
-  left: calc(50%);
+  font-size: 1.2rem;
 }
 a{
   text-decoration: none;
