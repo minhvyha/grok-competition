@@ -138,13 +138,13 @@
   .new-releases{
     width: 100%;
     padding: 3rem 0;
+    margin-bottom: 3rem;
   }
   
   .new-releases h3{
     font-size: 1.8rem;
     margin-bottom: 2rem;
   }
-  
   .first h4, .second h4, .third h4{
     margin: 1rem;
     font-size: 1.09rem;
@@ -205,15 +205,67 @@
     height: 0%;
     transform: translate(-50%, -50%) rotate(45deg);
   }
-  .button:hover::before{
+  .basket:hover::before{
     height: 423%;
   }
   
   /*=============== Collection ===============*/
-  
+  .collections{
+    background-image: url(/collection.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 661px;
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5rem;
+    margin-bottom: 6rem;
+  }
+  .collections h3{
+    font-family: 'Playfair';
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  .collections p{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  ul{
+    list-style-type: none;
+    margin-bottom: 3rem;
+  }
+  .collection{
+    color: rgb(190, 190, 190);
+  }
+  .start{
+    color: white;
+    border: 3px #f94c43 solid;
+    padding: 10px 30px;
+    border-radius: 0.3rem;
+    background: rgba(0, 0, 0, 0.2);
+    transition: .5s;
+    font-weight: 500;
+  }
+  .start:hover{
+    color: black;
+    background: white;
+    border: 3px white solid;
+  }
+
+  /*=============== Mother day ===============*/
+  .mothers-day{
+    display: none;
+  }
   /*=============== Footer ===============*/
   .footer {
     background-color: rgb(251, 216, 216);
+    height: 100vh;
     width: 100%;
     padding: 3rem 0 1.5rem;
   }
