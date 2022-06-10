@@ -335,3 +335,11 @@
     display: none;
   }
 
+  @media screen and (min-width: 576px){
+    .header .logo{
+      font-size: 7rem;
+    }
+    .fire{
+      font-size: 7.2rem;
+    }
+  }
