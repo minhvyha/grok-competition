@@ -145,11 +145,11 @@
     font-size: 2.4rem;
     margin-bottom: 2rem;
   }
-  .new-text > h4, .new-text > h4, .new-text > h4{
+  .new-text > h4{
     margin: 1rem;
     font-size: 1.09rem;
   }
-  .new-text > p, .new-text > p, .new-text > p{
+  .new-text > p{
     margin: 0.61rem;
 
   }
@@ -335,22 +335,138 @@
     display: none;
   }
 
-  @media screen and (max-width: 576px){
+  @media screen and (max-width: 375px){
+    .new{
+      width: 200px;
+      height: 440px;
+    }
+    .new > img{
+      width: 160px;
+      height: 160px;
+      border-radius: 0.4rem;
+    }
+    .new-releases > h3{
+      font-size: 2rem;
+    }
     .header .logo{
-      font-size: 7rem;
+      font-size: 2rem;
+    }
+    .fire {
+      font-size: 2rem;
+    }
+    .collections > h3{
+      font-size: 2.8rem;
+      margin-bottom: 2rem;
+    }
+    .collections > ul{
+      display: none;
+    }
+    .collections > p {
+      font-size: 1rem;
+      margin-bottom: 3rem;
+    }
+    .start{
+      font-size: 0.9rem;
+      padding: 5px 15px;
+    }
+    .collections{
+      padding: 0 2rem;
+      align-items: center;
+    }
+    .footer > .footer-section{
+      width: 200px;
+    }
+    .new-text > p{
+      font-size: 0.6rem;
+    }
+    .basket{
+      font-size: 0.6rem;
+      padding: 8px 10px;
+      width: 140px;
+    }
+    .new:hover > img{
+    
+      transform: scale(1.05);
+      
+    }
+    .price{
+      font-size: 0.9rem;
+    }
+    .new-text > h4{
+      margin: 0.8rem;
+    }
+    .footer{
+      height: 850px;
+    }
+    .footer-section > h4 {
+      font-size: 1.1rem;
+      margin: 0.8rem;
+  }
+    .footer-section > p{
+      font-size: 0.7rem;
+    }
+    .footer > .footer-section{
+      margin: 5px;
+    }
+    .site-links {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    .site-links > p{
+      font-size: 0.7rem;
+    }
+    .copyright{
+      font-size: 0.7rem;
+    }
+  }
+
+
+@media screen and (min-width: 376px) and (max-width:875px){
+    .header .logo{
+      font-size: 3rem;
     }
     .fire{
-      font-size: 7.2rem;
+      font-size: 3rem;
     }
     .new{
-      width: 60%;
+      width: 280px;
       border-radius: 2rem;
     }
     .new-releases > h3{
-      font-size: 3rem;
+      font-size: 2.3rem;
     }
     .new > img{
-      width: 300px;
-      height: 300px;
+      width: 210px;
+      height: 210px;
+    }
+    .new-text > p{
+      margin: 0.61rem;
+  
+    }
+    .new-text > h4 {
+      margin: 0.8rem;
+      font-size: 1.19rem;
+    }
+    .new:hover > img{
+    
+      transform: scale(1.09);
+      
+    }
+    .footer {
+      background-color: rgb(251, 216, 216);
+      height: 960px;
+      width: 100%;
+      padding: 3rem 0 1.5rem;
+    }
+    .footer > .footer-section {
+      width: 250px;
+      margin: 08px;
+      display: inline-block;
+    }
+    .site-links {
+      margin: 1rem;
+    }
+    .footer > .footer-logo{
+      display: none;
     }
   }
