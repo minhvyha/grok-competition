@@ -428,6 +428,9 @@
     .fire{
       font-size: 3rem;
     }
+    .collections > p{
+      font-size: 1.1rem;
+    }
     .new{
       width: 280px;
       border-radius: 2rem;
