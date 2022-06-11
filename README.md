@@ -16,5 +16,6 @@
 - CSS
 
 ### About this project
-
+\
+This Web Competition in Grok include styling a given HTML
 ![preview img](/preview.png)
