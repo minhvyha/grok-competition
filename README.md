@@ -13,7 +13,6 @@
 ### Concepts in the project:
 
 - Web development
-- CSS
 
 ### About this project
 
