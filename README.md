@@ -1,5 +1,5 @@
 # Grok Web Competition
-## [Watch it on youtube]()
+## [Watch it on youtube](https://youtu.be/OqcEBNGcomE)
 ## [Live Demo](https://firewithin.netlify.app)
 
 ## **Description:**
@@ -16,6 +16,5 @@
 - CSS
 
 ### About this project
-\
-This Web Competition in Grok include styling a given HTML
+
 ![preview img](/preview.png)
