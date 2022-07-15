@@ -2,7 +2,7 @@
 ## [Vote For me](https://groklearning.com/tournament/webcomp-tournament-2022-may/design-tournament/vote/pWjjOp4zgUoJIbxS/)
 ## [Watch it on youtube](https://youtu.be/OqcEBNGcomE)
 ## [Live Demo](https://firewithin.netlify.app)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/75df0e47-e1aa-41fb-9211-f86a3e3cbac5/deploy-status)](https://app.netlify.com/sites/google-search-minhvyha/deploys)
 ## **Description:**
 
 ### Technologies used:
